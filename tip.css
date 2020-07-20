@@ -9,6 +9,7 @@ main {
     display: flex;
     justify-content: space-between;
     width: 70vw;
+    max-width: 450px;
     margin: 50px auto;
     border: 0.5px solid grey;
     padding: 10px;
