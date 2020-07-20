@@ -7,7 +7,8 @@
 
 main {
     display: flex;
-    width: 450px;
+    justify-content: space-between;
+    width: 70vw;
     margin: 50px auto;
     border: 0.5px solid grey;
     padding: 10px;
@@ -17,7 +18,8 @@ main {
 form {
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 50%;
+    max-width: 200px;
     justify-content: stretch;
 }
 
@@ -31,13 +33,6 @@ input {
     border: solid 0.5px grey;
 }
 
-#tip {
-    border: transparent;
-    height: 18px;
-    text-align: right;
-    width: 110px;
-}
-
 input:focus {
     outline: none;
 }
@@ -46,11 +41,21 @@ input:focus {
     display: flex;
     border: solid 0.5px grey;
     width: 100%;
+    text-align: right;
 }
 
-#test {
-    width: 200px;
+#tip {
+    border: transparent;
+    height: 18px;
+    flex: 1;
+    text-align: right;
 }
+
+#tip_span > p {
+    flex: 1;
+    text-align: left;
+}
+
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -82,6 +87,8 @@ p {
 }
 
 aside {
+    width: 50%;
+    max-width: 200px;
     margin: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr;
