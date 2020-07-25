@@ -87,6 +87,11 @@ p {
     font-size: 1rem;
 }
 
+#sp1, #sp2 {
+    font-size: 0.7rem;
+    visibility: hidden;
+}
+
 aside {
     width: 50%;
     max-width: 200px;
