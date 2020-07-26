@@ -7,11 +7,11 @@ function function_calc() {
 
 function function_if() {
 if (Number(people.value) > 1) {
-  document.getElementById("sp1").style.visibility = "visible";
-  document.getElementById("sp2").style.visibility = "visible";
+  sp1.style.visibility = "visible";
+  sp2.style.visibility = "visible";
 } else if (Number(people.value) === 1) {
-  document.getElementById("sp1").style.visibility = "hidden";
-  document.getElementById("sp2").style.visibility = "hidden";
+  sp1.style.visibility = "hidden";
+  sp2.style.visibility = "hidden";
 }
 }
 
