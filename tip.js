@@ -1,7 +1,7 @@
 function function_calc() {
-  var resultTip = Number(bill.value)*Number(tip.value)/100/Number(people.value);
+  let resultTip = Number(bill.value)*Number(tip.value)/100/Number(people.value);
   result_tip.innerHTML = '$' + resultTip.toFixed(2);
-  var resultTotal = (Number(bill.value)*Number(tip.value)/100 + Number(bill.value))/Number(people.value);
+  let resultTotal = (Number(bill.value)*Number(tip.value)/100 + Number(bill.value))/Number(people.value);
   result_total.innerHTML = '$' + resultTotal.toFixed(2);
 }
 
